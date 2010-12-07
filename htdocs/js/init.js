@@ -30,4 +30,7 @@ jQuery(function( $ ){
 			// The 'this' contains the scrolled element (#content)
 		}
 	});
+	$("#get-notified a").fancybox({
+				'titlePosition'		: 'inside',
+			});
 });

@@ -322,3 +322,69 @@ section#ideas {
 #ideas li.even {
   margin-right: 0;
 }
+
+section#signup-form {
+  display: none;
+}
+
+div#mc_embed_signup {
+  width: 400px;
+  height: 160px;
+  padding: 40px;
+  background: #F5F5F5; /* old browsers */
+  background: -moz-linear-gradient(top, #F5F5F5 0%, #E6E6E6 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F5F5F5), color-stop(100%,#E6E6E6));
+}
+
+#mc_embed_signup .indicate-required {
+  font: 12px 'MuseoSlab300Italic', Georgia, "Times New Roman", Times, serif;
+}
+
+#mc_embed_signup label {
+  display: block;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+#mc_embed_signup input.email {
+  background: #424242; /* old browsers */
+  background: -moz-linear-gradient(top, #424242 0%, #606060 32%, #606060 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#424242), color-stop(32%,#606060), color-stop(100%,#606060));
+  padding: 10px;
+  border: 1px solid #4b4b4b;
+  color: #ededed;
+  font-size: .875em;
+  font-family: 'MuseoSlab100', Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 8px;
+}
+
+#mc_embed_signup input.btn {
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #FFFFFF; /* old browsers */
+  background: -moz-linear-gradient(top, #FFFFFF 0%, #F3F3F4 4%, #B0B0B0 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(4%,#F3F3F4), color-stop(100%,#B0B0B0)); /* webkit */
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  width: 126px;
+  box-shadow:1px 1px 5px #ededee;
+  -webkit-box-shadow:1px 1px 5px #ededee;
+  -moz-box-shadow:1px 1px 5px #ededee;
+  color: #0d4c7c;
+  font: 14px/45px 'MuseoSlab500', Georgia, "Times New Roman", Times, serif;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+}
+
+#mc_embed_signup input.btn:focus {
+  background: #e2e2e2; /* old browsers */
+  background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(51%,#d1d1d1), color-stop(100%,#fefefe));
+  color: #272727;
+  box-shadow:1px 1px 5px #bbbbbd;
+  -webkit-box-shadow:1px 1px 5px #bbbbbd;
+  -moz-box-shadow:1px 1px 5px #bbbbbd;
+}
