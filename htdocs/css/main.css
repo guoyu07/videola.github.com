@@ -377,6 +377,7 @@ div#mc_embed_signup {
   margin-left: auto;
   margin-right: auto;
   border-style: none;
+  height: 45px;
 }
 
 #mc_embed_signup input.btn:focus {
