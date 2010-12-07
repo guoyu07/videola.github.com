@@ -32,6 +32,21 @@ h2, h3, h4 {
   padding-bottom: 14px;
 }
 
+dt {
+  font: 1.125em 'MuseoSlab300', Georgia, "Times New Roman", Times, serif;
+  color: #242424;
+  padding-top: 20px;
+  padding-bottom: 6px;
+  text-align: center;
+}
+
+dd {
+  font-size: .875em;
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
 h2 span, h3 span, h4 span {
   background-color: white;
   padding-right: .25em;
@@ -58,7 +73,7 @@ h4 {
 }
 
 article p {
-  
+  padding-bottom: 8px;
 }
 
 header {
