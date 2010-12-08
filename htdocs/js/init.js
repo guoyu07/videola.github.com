@@ -30,6 +30,9 @@ jQuery(function( $ ){
 			// The 'this' contains the scrolled element (#content)
 		}
 	});
+	$("input#mc-embedded-subscribe").click(function () { 
+      $.fancybox.close(); 
+    });
 	$("#get-notified a").fancybox({
 				'titlePosition'		: 'inside',
 			});

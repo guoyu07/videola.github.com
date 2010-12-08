@@ -57,6 +57,7 @@ h2 {
   font-size: 2.25em;
   background: url(../images/line_double.png) repeat-x 0 6px;
   letter-spacing: -.07em;
+  padding-bottom: 30px;
 }
 
 h3 {
@@ -228,9 +229,48 @@ section#details {
   margin-left: auto;
   margin-right: auto;
   padding-top: 80px;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   text-align: left;
   background: url(../images/bg_content-top-shadow.png) no-repeat center top;
+}
+
+ul.linklist {
+  text-align: center;
+  padding-top: 40px;
+  border-top: 1px solid #d9d9d9;
+  margin-top: 30px;
+}
+
+.linklist li {
+  display: inline;
+  font-family: 'MuseoSlab300', Georgia, "Times New Roman", Times, serif;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+.linklist a {
+  background: #FFFFFF; /* old browsers */
+  background: -moz-linear-gradient(top, #FFFFFF 0%, #F3F3F4 4%, #B0B0B0 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(4%,#F3F3F4), color-stop(100%,#B0B0B0)); /* webkit */
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  width: 126px;
+  box-shadow:1px 1px 5px #ededee;
+  -webkit-box-shadow:1px 1px 5px #ededee;
+  -moz-box-shadow:1px 1px 5px #ededee;
+  color: #0d4c7c;
+  padding: 12px 18px;
+}
+
+.linklist a:hover {
+  background: #e2e2e2; /* old browsers */
+  background: -moz-linear-gradient(top, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(51%,#d1d1d1), color-stop(100%,#fefefe));
+  color: #272727;
+  box-shadow:1px 1px 5px #bbbbbd;
+  -webkit-box-shadow:1px 1px 5px #bbbbbd;
+  -moz-box-shadow:1px 1px 5px #bbbbbd;
 }
 
 section#videola-equation {
@@ -238,16 +278,20 @@ section#videola-equation {
   background: -moz-linear-gradient(top, #F5F5F5 0%, #E6E6E6 100%); /* firefox */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F5F5F5), color-stop(100%,#E6E6E6));
   border-top: 1px solid #e6e6e6;
-  padding-top: 22px;
-  padding-bottom: 29px;
+  padding-top: 42px;
+  padding-bottom: 59px;
 }
 
 section#features {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   width: 620px;
   margin-left: auto;
   margin-right: auto;
+}
+
+body.hosted #features {
+  padding-top: 0;
 }
 
 #features ul {
@@ -301,8 +345,8 @@ section#ideas {
   background: -moz-linear-gradient(top, #F5F5F5 0%, #E6E6E6 100%); /* firefox */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F5F5F5), color-stop(100%,#E6E6E6));
   border-top: 1px solid #e6e6e6;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 
 #ideas h3 {
