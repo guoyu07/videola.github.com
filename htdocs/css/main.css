@@ -73,6 +73,18 @@ h4 {
   text-transform: lowercase;
 }
 
+img.left {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+img.right {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
 #details h4 {
   margin-top: 18px;
 }
